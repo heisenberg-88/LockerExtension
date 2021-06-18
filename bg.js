@@ -30,8 +30,9 @@ chrome.runtime.onInstalled.addListener(function(details){
 
 //this runs on every startup
 chrome.runtime.onStartup.addListener(function(){
-		
+		// blank window opens
 		window.open("about:blank");
+		window.blur();
 		
 		var unlock = prompt("Please enter Password: ", "");
 		
