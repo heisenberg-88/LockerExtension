@@ -3,14 +3,14 @@ function save_password() {
 
     var old = document.getElementById('old').value;
     var newPassVal = document.getElementById('new').value;
-    document.getElementById('note').style.display='block';
+    document.getElementById('message').style.display='block';
     
 
     // Enter old and new password error show
     if(old == ""  || newPassVal =="" ){
         
-        document.getElementById('note').style.display='block';
-        document.getElementById('note').innerHTML='enter old and new passwords';
+        document.getElementById('message').style.display='block';
+        document.getElementById('message').innerHTML='enter old and new passwords';
     }
     
     
@@ -19,7 +19,7 @@ function save_password() {
         
         
         localStorage.setItem("newPass", newPassVal);
-        document.getElementById('note').innerHTML='password saved';
+        document.getElementById('message').innerHTML='password saved';
         document.getElementById('old').value='';
         document.getElementById('new').value='';
         document.getElementById('save').style.display='none';
@@ -28,7 +28,7 @@ function save_password() {
     }
     else{
         
-        document.getElementById('note').innerHTML='incorrect old password';
+        document.getElementById('message').innerHTML='incorrect old password';
         
     }
   
@@ -40,6 +40,5 @@ function save_password() {
 
 
 
-document.getElementById('save').addEventListener('click',
-    save_password);
+document.getElementById('save').addEventListener('click',save_password);
 
