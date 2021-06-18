@@ -10,13 +10,11 @@ to install in your browser,
   -> after installing the extension , you can disable the developer options.   
   
         
-  
+  Note: you need to manually switch on the option for allow extension in private mode. Without this , the extension can be uninstalled by opening a private window.    
   
   
 # Features:
-  
-  Note: you need to manually switch on the option for allow extension in private mode. Without this , the extension can be uninstalled by opening a private window.   
-  
+ 
   -> Asks for password on every startup.   
   -> If wrong password is entered , Browser automatically closes.  
   -> Empty tab is opened behind the password asking popup to hide new tab shortcuts , bookmarkbar links.  
