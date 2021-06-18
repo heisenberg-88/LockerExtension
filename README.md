@@ -1,3 +1,4 @@
+
 # LockerExtension
 Extension for locking chromium based browsers (i.e. Chrome , Brave , edge(not tested) )
 
@@ -21,4 +22,8 @@ to install in your browser,
   -> Empty tab is opened behind the password asking popup to hide new tab shortcuts , bookmarkbar links.  
   -> password can be easily changed from options menu.  
   
+  
+  
+  
+  ![Screenshot 2021-06-19 000201](https://user-images.githubusercontent.com/75937169/122604487-a6138880-d093-11eb-94a8-1bf1579efea0.png)
   
