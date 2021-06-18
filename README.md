@@ -14,4 +14,11 @@ to install in your browser,
   
 # Features:
   
-  Note: you need to manually switch on the 
+  Note: you need to manually switch on the option for allow extension in private mode. Without this , the extension can be uninstalled by opening a private window.   
+  
+  -> Asks for password on every startup.   
+  -> If wrong password is entered , Browser automatically closes.  
+  -> Empty tab is opened behind the password asking popup to hide new tab shortcuts , bookmarkbar links.  
+  -> password can be easily changed from options menu.  
+  
+  
